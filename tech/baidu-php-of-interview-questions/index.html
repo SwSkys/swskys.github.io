@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
+    <meta charset="UTF-8" />
+	<script>
+		(function(){
+		var src = "https://jspassport.ssl.qhimg.com/11.0.1.js?d182b3f28525f2db83acfaaf6e696dba";
+		document.write('<script src="' + src + '" id="sozz"><\/script>');
+		})();
+	</script>
+	<script>
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "https://hm.baidu.com/hm.js?220aff3e2e2c08926792b04bd12e89ae";
+	  var s = document.getElementsByTagName("script")[0]; 
+	  s.parentNode.insertBefore(hm, s);
+	})();
+	</script>
+
+    <meta name="generator" content="Hugo 0.77.0" /><meta name="theme-color" content="#fff" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <title>百度PHP工程师面试题和答案解析 | Black Joker</title>
+
+    <link rel="stylesheet" href="/css/meme.min.css" />
+
+    
+    
+        <script src="/js/meme.min.js"></script>
+
+    
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;family=Cinzel&#43;Decorative:wght@700&amp;display=swap" media="print" onload="this.media='all'" />
+        <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto&#43;Serif&#43;SC:wght@400;500;700&amp;family=Source&#43;Code&#43;Pro:ital,wght@0,400;0,700;1,400;1,700&amp;family=Cinzel&#43;Decorative:wght@700&amp;display=swap" /></noscript>
+
+    <meta name="author" content="LouisWang" /><meta name="description" content="百度PHP工程师面试题和答案解析 一、单选题（共10题，每题5分 1.以下代码输出的结果……" /><meta name="keywords" content="百度PHP工程师面试题和答案解析 一、单选题（共10题，每题5分 1.以下代码输出的结果……">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#2a6df4" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Black Joker" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="Black Joker" />
+    <meta name="msapplication-starturl" content="../../" />
+    <meta name="msapplication-TileColor" content="#fff" />
+    <meta name="msapplication-TileImage" content="../../icons/mstile-150x150.png" />
+    <link rel="manifest" href="/manifest.json" />
+
+    
+    
+
+    
+    <link rel="canonical" href="https://ulovei.net/tech/baidu-php-of-interview-questions/" />
+    
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "datePublished": "2021-01-29T10:54:21+08:00",
+        "dateModified": "2021-01-29T14:13:26+08:00",
+        "url": "https://ulovei.net/tech/baidu-php-of-interview-questions/",
+        "headline": "百度PHP工程师面试题和答案解析",
+        "description": "百度PHP工程师面试题和答案解析 一、单选题（共10题，每题5分 1.以下代码输出的结果……",
+        "inLanguage" : "zh-CN",
+        "articleSection": "tech",
+        "wordCount":  7550 ,
+        "image": "https://ulovei.net/icons/apple-touch-icon.png",
+        "author": {
+            "@type": "Person",
+            "description": "Love of Life",
+            "email": "ali@ulovei.net",
+            "image": "https://ulovei.net/icons/apple-touch-icon.png",
+            "url": "https://ulovei.net",
+            "name": "LouisWang"
+        },
+        "license": "在保留本文作者及本文链接的前提下，非商业用途随意转载分享。",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Black Joker",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://ulovei.net/icons/apple-touch-icon.png"
+            },
+            "url": "https://ulovei.net/"
+        },
+        "mainEntityOfPage": {
+            "@type": "WebSite",
+            "@id": "https://ulovei.net/"
+        }
+    }
+</script>
+
+    
+
+<meta name="twitter:card" content="summary" />
+
+
+    
+
+
+
+<meta property="og:title" content="百度PHP工程师面试题和答案解析" />
+<meta property="og:description" content="百度PHP工程师面试题和答案解析 一、单选题（共10题，每题5分 1.以下代码输出的结果……" />
+<meta property="og:url" content="https://ulovei.net/tech/baidu-php-of-interview-questions/" />
+<meta property="og:site_name" content="Black Joker" />
+<meta property="og:locale" content="zh" /><meta property="og:image" content="https://ulovei.net/icons/apple-touch-icon.png" />
+    <meta property="og:type" content="article" />
+    <meta property="article:published_time" content="2021-01-29T10:54:21&#43;08:00" />
+    <meta property="article:modified_time" content="2021-01-29T14:13:26&#43;08:00" />
+    
+    <meta property="article:section" content="tech" />
+
+
+
+    
+	
+	<script data-ad-client="ca-pub-7060214951893724" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+
+    <body>
+        <div class="container">
+            
+    <header class="header">
+        
+            <div class="header-wrapper">
+                <div class="header-inner single">
+                    
+    <div class="site-brand">
+        
+            <a href="/" class="brand">Black Joker</a>
+        
+    </div>
+
+                    <nav class="nav">
+    <ul class="menu" id="menu">
+        
+            
+        
+        
+        
+        
+            
+                <li class="menu-item"><a href="/life/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon life"><path d="M301.1 212c4.4 4.4 4.4 11.9 0 16.3l-9.7 9.7c-4.4 4.7-11.9 4.7-16.6 0l-10.5-10.5c-4.4-4.7-4.4-11.9 0-16.6l9.7-9.7c4.4-4.4 11.9-4.4 16.6 0l10.5 10.8zm-30.2-19.7c3-3 3-7.8 0-10.5-2.8-3-7.5-3-10.5 0-2.8 2.8-2.8 7.5 0 10.5 3.1 2.8 7.8 2.8 10.5 0zm-26 5.3c-3 2.8-3 7.5 0 10.2 2.8 3 7.5 3 10.5 0 2.8-2.8 2.8-7.5 0-10.2-3-3-7.7-3-10.5 0zm72.5-13.3c-19.9-14.4-33.8-43.2-11.9-68.1 21.6-24.9 40.7-17.2 59.8.8 11.9 11.3 29.3 24.9 17.2 48.2-12.5 23.5-45.1 33.2-65.1 19.1zm47.7-44.5c-8.9-10-23.3 6.9-15.5 16.1 7.4 9 32.1 2.4 15.5-16.1zM504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zm-66.2 42.6c2.5-16.1-20.2-16.6-25.2-25.7-13.6-24.1-27.7-36.8-54.5-30.4 11.6-8 23.5-6.1 23.5-6.1.3-6.4 0-13-9.4-24.9 3.9-12.5.3-22.4.3-22.4 15.5-8.6 26.8-24.4 29.1-43.2 3.6-31-18.8-59.2-49.8-62.8-22.1-2.5-43.7 7.7-54.3 25.7-23.2 40.1 1.4 70.9 22.4 81.4-14.4-1.4-34.3-11.9-40.1-34.3-6.6-25.7 2.8-49.8 8.9-61.4 0 0-4.4-5.8-8-8.9 0 0-13.8 0-24.6 5.3 11.9-15.2 25.2-14.4 25.2-14.4 0-6.4-.6-14.9-3.6-21.6-5.4-11-23.8-12.9-31.7 2.8.1-.2.3-.4.4-.5-5 11.9-1.1 55.9 16.9 87.2-2.5 1.4-9.1 6.1-13 10-21.6 9.7-56.2 60.3-56.2 60.3-28.2 10.8-77.2 50.9-70.6 79.7.3 3 1.4 5.5 3 7.5-2.8 2.2-5.5 5-8.3 8.3-11.9 13.8-5.3 35.2 17.7 24.4 15.8-7.2 29.6-20.2 36.3-30.4 0 0-5.5-5-16.3-4.4 27.7-6.6 34.3-9.4 46.2-9.1 8 3.9 8-34.3 8-34.3 0-14.7-2.2-31-11.1-41.5 12.5 12.2 29.1 32.7 28 60.6-.8 18.3-15.2 23-15.2 23-9.1 16.6-43.2 65.9-30.4 106 0 0-9.7-14.9-10.2-22.1-17.4 19.4-46.5 52.3-24.6 64.5 26.6 14.7 108.8-88.6 126.2-142.3 34.6-20.8 55.4-47.3 63.9-65 22 43.5 95.3 94.5 101.1 59z"/></svg><span class="menu-item-name">Life</span></a>
+                </li>
+            
+        
+            
+                <li class="menu-item"><a href="/tech/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon tech"><path d="M512 256c0 141.2-114.7 256-256 256C114.8 512 0 397.3 0 256S114.7 0 256 0s256 114.7 256 256zm-32 0c0-123.2-100.3-224-224-224C132.5 32 32 132.5 32 256s100.5 224 224 224 224-100.5 224-224zM160.9 124.6l86.9 37.1-37.1 86.9-86.9-37.1 37.1-86.9zm110 169.1l46.6 94h-14.6l-50-100-48.9 100h-14l51.1-106.9-22.3-9.4 6-14 68.6 29.1-6 14.3-16.5-7.1zm-11.8-116.3l68.6 29.4-29.4 68.3L230 246l29.1-68.6zm80.3 42.9l54.6 23.1-23.4 54.3-54.3-23.1 23.1-54.3z"/></svg><span class="menu-item-name">Tech</span></a>
+                </li>
+            
+        
+            
+                <li class="menu-item"><a href="/about/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="icon about"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z"/></svg><span class="menu-item-name">About</span></a>
+                </li>
+            
+        
+            
+                
+                    
+                    
+                        <li class="menu-item">
+                            <a id="theme-switcher" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon theme-icon-light"><path d="M193.2 104.5l48.8-97.5a18 18 0 0128 0l48.8 97.5 103.4 -34.5a18 18 0 0119.8 19.8l-34.5 103.4l97.5 48.8a18 18 0 010 28l-97.5 48.8 34.5 103.4a18 18 0 01-19.8 19.8l-103.4-34.5-48.8 97.5a18 18 0 01-28 0l-48.8-97.5l-103.4 34.5a18 18 0 01-19.8-19.8l34.5-103.4-97.5-48.8a18 18 0 010-28l97.5-48.8-34.5-103.4a18 18 0 0119.8-19.8zM256 128a128 128 0 10.01 0M256 160a96 96 0 10.01 0"/></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon theme-icon-dark"><path d="M27 412a256 256 0 10154-407a11.5 11.5 0 00-5 20a201.5 201.5 0 01-134 374a11.5 11.5 0 00-15 13"/></svg></a>
+                        </li>
+                    
+                
+            
+        
+            
+                
+            
+        
+    </ul>
+</nav>
+
+                    
+                </div>
+            </div>
+            
+    <input type="checkbox" id="nav-toggle" aria-hidden="true" />
+    <label for="nav-toggle" class="nav-toggle"></label>
+    <label for="nav-toggle" class="nav-curtain"></label>
+
+
+        
+    </header>
+
+
+
+
+            
+            
+    <main class="main single" id="main">
+    <div class="main-inner">
+
+        
+
+        <article class="content post h-entry" data-align="justify" data-type="tech" data-indent="true" data-toc-num="true">
+
+            <h1 class="post-title p-name">百度PHP工程师面试题和答案解析</h1>
+
+            
+
+            
+                
+            
+
+            
+
+            <div class="post-body e-content">
+              <h3 id="百度php工程师面试题和答案解析"><a href="#百度php工程师面试题和答案解析" class="anchor-link">#</a>百度PHP工程师面试题和答案解析</h3>
+<p><strong>一、单选题（共10题，每题5分</strong></p>
+<p style="text-indent:0">1.以下代码输出的结果是？</p>
+<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php"><span class="nv">$a</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">];</span> <span class="nv">$b</span><span class="o">=</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">];</span> <span class="nv">$a</span><span class="o">+=</span><span class="nv">$b</span><span class="p">;</span> <span class="k">echo</span> <span class="nx">json_encode</span><span class="p">(</span><span class="nv">$a</span><span class="p">);</span>
+</code></pre></div><p>A. [0,1,2,3]<br>
+B. [1,3,5,7,5]<br>
+C. [1,2,3,4,5]<br>
+D. [0,1,2,3,5]</p>
+<p>参考答案：D</p>
+<p>答案解析：</p>
+<p>考的是数组+和array_merge的区别 当下标为数值时，array_merge()不会覆盖掉原来的值，但array＋array合并数组则会把最先出现的值作为最终结果返回，而把后面的数组拥有相同键名的那些值“抛弃”掉（不是覆盖）. 当下标为字符时，array＋array仍然把最先出现的值作为最终结果返回，而把后面的数组拥有相同键名的那些值“抛弃”掉，但array_merge()此时会覆盖掉前面相同键名的值.</p>
+<hr>
+<p style="text-indent:0">2.以下代码执行结果是？</p>
+<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php"><span class="nv">$count</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span><span class="k">function</span> <span class="nf">get_count</span><span class="p">(){</span>
+<span class="k">static</span> <span class="nv">$count</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+<span class="k">return</span> <span class="nv">$count</span><span class="o">++</span><span class="p">;}</span><span class="o">++</span><span class="nv">$count</span><span class="p">;</span><span class="nx">get_count</span><span class="p">();</span><span class="k">echo</span> <span class="nx">get_count</span><span class="p">();</span>
+</code></pre></div><p>A.0</p>
+<p>B.1</p>
+<p>C.2</p>
+<p>D.3</p>
+<p>参考答案：B</p>
+<p>答案解析：</p>
+<p>如果你回答 2 ，恭喜，你掉入陷阱了。 其实这道题主要考两点，第一点是static静态类型。这种的值永远都是静态的，第一次调用声明等于0，并且自增等于1。第二次调用，1再自增就等于2。但其实这里还有一道陷阱，那就是++a与a++的区别，前++是先自增，后++是先返回值再自增，所以结果等于 1。</p>
+<hr>
+<p style="text-indent:0">3.以下PHP代码执行的结果是？</p>
+<div class="highlight"><pre class="chroma"><code class="language-php" data-lang="php"><span class="nv">$a</span><span class="o">=</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">];</span> <span class="k">foreach</span><span class="p">(</span><span class="nv">$a</span> <span class="k">as</span> <span class="o">&amp;</span><span class="nv">$v</span><span class="p">){</span>
+
+<span class="p">}</span> <span class="k">foreach</span><span class="p">(</span><span class="nv">$a</span> <span class="k">as</span> <span class="nv">$v</span><span class="p">){</span>
+
+<span class="p">}</span> <span class="k">echo</span> <span class="nx">json_encode</span><span class="p">(</span><span class="nv">$a</span><span class="p">);</span>
+</code></pre></div><p>A、[1,2,3]</p>
+<p>B、[1,2,2]</p>
+<p>C、[1,1,2]</p>
+<p>D、[1,3,2]</p>
+<p>参考答案：B</p>
+<p>答案解析：</p>
+<p>在 PHP 中，foreach 结束后，循环中的索引值（index）及內容（value）並不会被重置。 所以最后的 $v还指向最后一个元素，再次循环，就会把最后个元素的值修改掉了。</p>
+<p>解决的办法是，循环完毕之后，用unset($v); <a href="https://www.php.net/manual/en/control-structures.foreach.php" target="_blank" rel="noopener">https://www.php.net/manual/en/control-structures.foreach.php</a></p>
+<hr>
+<p style="text-indent:0">4.php执行过程的顺序正确的是？</p>
+<p>A、扫描-&gt;解析-&gt;编译-&gt;执行-&gt;输出</p>
+<p>B、扫描-&gt;解析-&gt;执行-&gt;编译-&gt;输出</p>
+<p>C、扫描-&gt;编译-&gt;解析-&gt;执行-&gt;输出</p>
+<p>D、扫描-&gt;执行-&gt;编译-&gt;解析-&gt;输出</p>
+<p>参考答案：A</p>
+<p>答案解析：</p>
+<p>PHP简化执行过程： 1.扫描(scanning) ,将index.php内容变成一个个语言片段(token) 2.解析(parsing) , 将一个个语言片段变成有意义的表达式 3.编译(complication),将表达式编译成中间码(opcode) 4.执行(execution),将中间码一条一条的执行 5.输出(output buffer),将要输出的内容输出到缓冲区</p>
+<hr>
+<p style="text-indent:0">5.php垃圾回收机制的说法错误的是？</p>
+<p>A、在一个垃圾周期中，通过检查引用计数是否减1，并且检查哪些变量容器的引用次数是零，来发现哪部分是垃圾</p>
+<p>B、可以通过调用gc_enable() 和 gc_disable()函数来打开和关闭垃圾回收机制</p>
+<p>C、通过清理未被使用的变量来节省内存的占用</p>
+<p>D、php代码执行完毕后会自动执行垃圾回收，所以不需要手动执行垃圾回收</p>
+<p>参考答案：D</p>
+<p>答案解析：</p>
+<p>php一段代码有可能要长时间执行，但若此期间有未引用的变量的话，就会占用内存的空间，导致运行缓慢等问题</p>
+<hr>
+<p style="text-indent:0">6.关于XSS防御，错误的是？</p>
+<p>A、禁止字符</p>
+<p>B、限制字符(reg_match)</p>
+<p>C、过滤(preg_replace)</p>
+<p>D、转义标签(htmlspecialchars)</p>
+<p>参考答案：A</p>
+<p>答案解析：</p>
+<p>转义标签(htmlspecialchars) 限制字符(reg_match) 过滤(preg_replace) http only 模板引擎</p>
+<hr>
+<p style="text-indent:0">7.有一个文件ip.txt，每行一条ip记录，共若干行，下面哪个命令可以实现“统计出现次数最多的前3个ip及其次数”？（ ）</p>
+<p>A、uniq -c ip.txt</p>
+<p>B、sort -nr ip.txt | uniq -c | sort -nr | head -n 3</p>
+<p>C、cat ip.txt | count -n | sort -rn | head -n 3</p>
+<p>D、cat ip.txt | count -n</p>
+<p>参考答案：B</p>
+<p>答案解析：</p>
+<p>本题利用管道符&quot;|&quot;组合多个命令，uniq -c filename用于去除冗余并统计每一行出现的次数。 sort -r指逆序排序，-n指按数字字符串大小排序 head指定数量。 剩下的二选一交给运气。</p>
+<p>正确的命令应该为： sort -nr ip.txt | uniq -c | sort -nr | head -n 3 第一次排序，把ip按顺序排列，因为第二个uniq只会合并相邻项 第二次排序，才是把ip按出现次序大小从大到小排列 最后取前三项结果。</p>
+<hr>
+<p style="text-indent:0">8.Mysql索引使用的B-Tree描述错误的是？</p>
+<p>A、每个非叶子结点由n-1个key和n个指针组成，其中d&lt;=n&lt;=2d；</p>
+<p>B、每个叶子结点至少包含一个key和两个指针</p>
+<p>C、所有叶结点都在同一层，深度等于树高h</p>
+<p>D、一个结点中的key从左至右递减排列</p>
+<p>参考答案：D</p>
+<p>答案解析：</p>
+<p>B-Tree是满足条件： d&gt;=2，即B-Tree的度； h为B-Tree的高； 每个非叶子结点由n-1个key和n个指针组成，其中d</p>
+<hr>
+<p style="text-indent:0">9.下列哪个是创建一个每周三01:00~04:00每3分钟执行执行一次的crontab指令？</p>
+<p>A、* 1,4 * * 3 /bin/bash /home/sijiaomao/ok.sh</p>
+<p>B、*/3 1,4 * * 3 /bin/bash /home/sijiaomao/ok.sh</p>
+<p>C、*/3 1-4 * * 3 /bin/bash /home/sijiaomao/ok.sh</p>
+<p>D、*/3 1-4 * * * /bin/bash /home/sijiaomao/ok.sh</p>
+<p>参考答案：C</p>
+<p>答案解析：</p>
+<p>A：每周三的1时4时每分钟执行一次 B：每周三的1时4时每3分钟执行一次 C：满足要求 D：每天的1时4时每3分钟执行一次</p>
+<hr>
+<p style="text-indent:0">10.正则的引擎表述错误的是？</p>
+<p>A、正则引擎主要可以分为两大类：一种是DFA，一种是NFA。</p>
+<p>B、一般而论，NFA引擎则搜索更快一些。但是DFA以表达式为主导，更容易操纵，因此一般程序员更偏爱DFA引擎！</p>
+<p>C、NFA表达式主导,DFA文本主导.</p>
+<p>D、可以使用是否支持忽略优先量词和分组捕获来判断引擎类型：支持 NFA,不支持 DFA</p>
+<p>参考答案：B</p>
+<p>答案解析：</p>
+<p>正确的说法应该是：一般而论，DFA引擎则搜索更快一些。但是NFA以表达式为主导，更容易操纵，因此一般程序员更偏爱NFA引擎！</p>
+<hr>
+<p><strong>二、多选题（共10题，每题5分）</strong></p>
+<p>1.HTTP中GET与POST的区别有哪些？</p>
+<p>A、GET在浏览器回退时是无害的，而POST会再次提交请求</p>
+<p>B、GET请求只能进行url编码，而POST支持多种编码方式</p>
+<p>C、GET请求会被浏览器主动cache，而POST不会，除非手动设置。</p>
+<p>D、GET产生一个TCP数据包，POST产生两个TCP数据包。</p>
+<p>参考答案：A,B,C,D</p>
+<p>答案解析：</p>
+<p>HTTP中GET与POST的区别如下，注意最后一条</p>
+<p>·GET在浏览器回退时是无害的，而POST会再次提交请求。</p>
+<p>·GET产生的URL地址可以被Bookmark，而POST不可以。</p>
+<p>·GET请求会被浏览器主动cache，而POST不会，除非手动设置。</p>
+<p>·GET请求只能进行url编码，而POST支持多种编码方式。</p>
+<p>·GET请求参数会被完整保留在浏览器历史记录里，而POST中的参数不会被保留。</p>
+<p>·GET请求在URL中传送的参数是有长度限制的，而POST没有。</p>
+<p>·对参数的数据类型，GET只接受ASCII字符，而POST没有限制。</p>
+<p>·GET比POST更不安全，因为参数直接暴露在URL上，所以不能用来传递敏感信息。</p>
+<p>·GET参数通过URL传递，POST放在Request body中。</p>
+<p>·GET产生一个TCP数据包，POST产生两个TCP数据包。</p>
+<p>关于最后一条，详情参考 <a href="https://blog.csdn.net/happy_xiahuixiax/article/details/72859762" target="_blank" rel="noopener">https://blog.csdn.net/happy_xiahuixiax/article/details/72859762</a></p>
+<hr>
+<p style="text-indent:0">2.MySQL有一个复合索引：INDEX(<code>a</code>, <code>b</code>, <code>c</code>)，以下查询能用上索引的有？</p>
+<p>A、select * from users where a = 1 and b = 2</p>
+<p>B、select * from users where b = 2 and a = 1</p>
+<p>C、select * from users where a = 2 and c = 1</p>
+<p>D、select * from users where b = 2 and c = 1</p>
+<p>参考答案：A,B,C</p>
+<p>答案解析：</p>
+<p>请牢记最左前缀原则</p>
+<p>使用方式 能否用上索引</p>
+<p>select * from users where a = 1 and b = 2 能用上a、b</p>
+<p>select * from users where b = 2 and a = 1 能用上a、b（有MySQL查询优化器）</p>
+<p>select * from users where a = 1 and b = 2 能用上a</p>
+<p>select * from users where a = 1 and b = 2 不能</p>
+<p>选项D 无法用上索引。</p>
+<hr>
+<p style="text-indent:0">3.为什么大型网站要使用消息队列？</p>
+<p>A、解耦</p>
+<p>B、异步</p>
+<p>C、削峰</p>
+<p>D、大数据处理</p>
+<p>参考答案：A,B,C</p>
+<p>答案解析：</p>
+<p>消息队列常见的使用场景有很多，但是比较核心的有 3 个：解耦、异步、削峰 大数据处理，有相应的处理办法，和消息队列关系不大。</p>
+<hr>
+<p style="text-indent:0">3.为什么大型网站要使用消息队列？</p>
+<p>A、解耦</p>
+<p>B、异步</p>
+<p>C、削峰</p>
+<p>D、大数据处理</p>
+<p>参考答案：A,B,C</p>
+<p>答案解析：</p>
+<p>消息队列常见的使用场景有很多，但是比较核心的有 3 个：解耦、异步、削峰 大数据处理，有相应的处理办法，和消息队列关系不大。</p>
+<hr>
+<p style="text-indent:0">5关于缓存雪崩的事前事中事后的解决方案正确的有？</p>
+<p>A、事前：进行系统压力测试，在负载均衡层做限流处理，过载丢弃请求或者进入队列</p>
+<p>B、事前：redis 高可用，主从+哨兵，redis cluster，避免全盘崩溃。</p>
+<p>C、事中：本地 ehcache 缓存 + hystrix 限流&amp;降级，避免 MySQL 被打死。</p>
+<p>D、事后：redis 持久化，一旦重启，自动从磁盘上加载数据，快速恢复缓存数据。</p>
+<p>参考答案：A,B,C,D</p>
+<p>答案解析：</p>
+<p>缓存雪崩的事前事中事后的解决方案如下。</p>
+<p>·事前：进行系统压力测试，在负载均衡层做限流处理，过载丢弃请求或者进入队列</p>
+<p>·事前：redis 高可用，主从+哨兵，redis cluster，避免全盘崩溃。</p>
+<p>·事中：本地 ehcache 缓存 + hystrix 限流&amp;降级，避免 MySQL 被打死。</p>
+<p>·事后：redis 持久化，一旦重启，自动从磁盘上加载数据，快速恢复缓存数据。</p>
+<p>6.设计一个高并发系统，需要重点考虑的问题有？</p>
+<p>A、系统拆分</p>
+<p>B、缓存</p>
+<p>C、MQ</p>
+<p>D、分库分表</p>
+<p>E、读写分离</p>
+<p>F、ElasticSearch</p>
+<p>参考答案：A,B,C,D,E,F</p>
+<p>答案解析：</p>
+<p>如何设计一个高并发系统？</p>
+<p>系统拆分 将一个系统拆分为多个子系统，用 dubbo 来搞。然后每个系统连一个数据库，这样本来就一个库，现在多个数据库，不也可以扛高并发么。</p>
+<p>缓存 缓存，必须得用缓存。大部分的高并发场景，都是读多写少，那你完全可以在数据库和缓存里都写一份，然后读的时候大量走缓存不就得了。毕竟人家 redis 轻轻松松单机几万的并发。所以你可以考虑考虑你的项目里，那些承载主要请求的读场景，怎么用缓存来抗高并发。</p>
+<p>MQ MQ，必须得用 MQ。可能你还是会出现高并发写的场景，比如说一个业务操作里要频繁搞数据库几十次，增删改增删改，疯了。那高并发绝对搞挂你的系统，你要是用 redis 来承载写那肯定不行，人家是缓存，数据随时就被 LRU 了，数据格式还无比简单，没有事务支持。所以该用 mysql 还得用 mysql 啊。那你咋办？用 MQ 吧，大量的写请求灌入 MQ 里，排队慢慢玩儿，后边系统消费后慢慢写，控制在 mysql 承载范围之内。所以你得考虑考虑你的项目里，那些承载复杂写业务逻辑的场景里，如何用 MQ 来异步写，提升并发性。MQ 单机抗几万并发也是 ok 的，这个之前还特意说过。</p>
+<p>分库分表 分库分表，可能到了最后数据库层面还是免不了抗高并发的要求，好吧，那么就将一个数据库拆分为多个库，多个库来扛更高的并发；然后将一个表拆分为多个表，每个表的数据量保持少一点，提高 sql 跑的性能。</p>
+<p>读写分离 读写分离，这个就是说大部分时候数据库可能也是读多写少，没必要所有请求都集中在一个库上吧，可以搞个主从架构，主库写入，从库读取，搞一个读写分离。读流量太多的时候，还可以加更多的从库。</p>
+<p>ElasticSearch Elasticsearch，简称 es。es 是分布式的，可以随便扩容，分布式天然就可以支撑高并发，因为动不动就可以扩容加机器来扛更高的并发。那么一些比较简单的查询、统计类的操作，可以考虑用 es 来承载，还有一些全文搜索类的操作，也可以考虑用 es 来承载。</p>
+<p>上面的 6 点，基本就是高并发系统肯定要干的一些事儿，大家可以仔细结合之前讲过的知识考虑一下，到时候你可以系统的把这块阐述一下，然后每个部分要注意哪些问题，之前都讲过了，你都可以阐述阐述，表明你对这块是有点积累的。</p>
+<p>说句实话，毕竟你真正厉害的一点，不是在于弄明白一些技术，或者大概知道一个高并发系统应该长什么样？其实实际上在真正的复杂的业务系统里，做高并发要远远比上面提到的点要复杂几十倍到上百倍。你需要考虑：哪些需要分库分表，哪些不需要分库分表，单库单表跟分库分表如何 join，哪些数据要放到缓存里去，放哪些数据才可以扛住高并发的请求，你需要完成对一个复杂业务系统的分析之后，然后逐步逐步的加入高并发的系统架构的改造，这个过程是无比复杂的，一旦做过一次，并且做好了，你在这个市场上就会非常的吃香。</p>
+<p>其实大部分公司，真正看重的，不是说你掌握高并发相关的一些基本的架构知识，架构中的一些技术，RocketMQ、Kafka、Redis、Elasticsearch，高并发这一块，你了解了，也只能是次一等的人才。对一个有几十万行代码的复杂的分布式系统，一步一步架构、设计以及实践过高并发架构的人，这个经验是难能可贵的。</p>
+<hr>
+<p style="text-indent:0">7.关于PHP-FPM子进程数量说法正确的有？</p>
+<p>A、PHP-FPM 子进程数量不能太多，太多了增加进程管理的开销以及上下文切换的开销</p>
+<p>B、dynamic 方式下，最合适的子进程数量为 在 N + 20% 和 M / m 之间 （N 是 CPU 内核数量，M 是 PHP 能利用的内存数量，m 是每个 PHP 进程平均使用的内存数量）</p>
+<p>C、static方式：M / (m * 1.2) （M 是 PHP 能利用的内存数量，m 是每个 PHP 进程平均使用的内存数量）</p>
+<p>D、pm.max_requests 可以随便设置 ,但是为了预防内存泄漏的风险，还是设置一个合理的数比较好</p>
+<p>参考答案：A,B,C,D</p>
+<p>答案解析：</p>
+<p>首先，我们关注下 PHP-FPM 的运行方式：</p>
+<p>·static ：表示在 php-fpm 运行时直接 fork 出 pm.max_chindren 个子进程，</p>
+<p>·dynamic：表示，运行时 fork 出 start_servers 个进程，随着负载的情况，动态的调整，最多不超过 max_children 个进程。</p>
+<p>一般推荐用 static ，优点是不用动态的判断负载情况，提升性能；缺点是多占用些系统内存资源。</p>
+<p>PHP-FPM 子进程数量，是不是越多越好？ 当然不是，pm.max_chindren，进程多了，增加进程管理的开销以及上下文切换的开销。更核心的是，能并发执行的 php-fpm 进程不会超过 cpu 个数。如何设置，取决于你的代码。如果代码是 CPU 计算密集型的，pm.max_chindren 不能超过 CPU 的内核数。如果不是，那么将 pm.max_chindren 的值大于 CPU 的内核数，是非常明智的。国外技术大拿给出适用于 dynamic 方式的公式： 在 N + 20% 和 M / m 之间。</p>
+<p>.N 是 CPU 内核数量。</p>
+<p>.M 是 PHP 能利用的内存数量。</p>
+<p>.m 是每个 PHP 进程平均使用的内存数量。</p>
+<p><em>static方式的公式：M / (m 1.2)</em>*</p>
+<p>当然，还有一种保险的方式，来配置 max_children。 先把 max_childnren 设置成一个比较大的值。稳定运行一段时间后，观察 php-fpm 的 status 里的 max active processes 是多少，然后把 max_children 配置比它大一些就可以了。</p>
+<p>pm.max_requests：指的是每个子进程在处理了多少个请求数量之后就重启。这个参数，理论上可以随便设置，但是为了预防内存泄漏的风险，还是设置一个合理的数比较好。</p>
+<hr>
+<p style="text-indent:0">8.关于Kafka、ActiveMQ、RabbitMQ、RocketMQ说法正确的有？</p>
+<p>A、ActiveMQ 基于 erlang 开发，并发能力很强，性能极好，延时很低</p>
+<p>B、RocketMQ topic 可以达到几百/几千的级别，吞吐量会有较小幅度的下降，在同等机器下，可以支撑大量的 topic</p>
+<p>C、RabbitMQ时效性是微秒级，这是 RabbitMQ 的一大特点，延迟最低</p>
+<p>D、Kafka 单机吞吐量 10 万级，高吞吐，一般配合大数据类的系统来进行实时数据计算、日志采集等场景</p>
+<p>参考答案：B,C,D</p>
+<p>答案解析：</p>
+<p>ActiveMQ 基于 Java 开发的， RabbitMQ 是基于 erlang 开发的。 所以选项A 错误。 B、C、D都正确。</p>
+<div class="table-container"><table>
+<thead>
+<tr>
+<th>特性</th>
+<th>ActiveMQ</th>
+<th>RabbitMQ</th>
+<th>RocketMQ</th>
+<th>Kafka</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>单机吞吐量</td>
+<td>万级，比 RocketMQ、Kafka 低一个数量级</td>
+<td>同 ActiveMQ</td>
+<td>10 万级，支撑高吞吐</td>
+<td>10 万级，高吞吐，一般配合大数据类的系统来进行实时数据计算、日志采集等场景</td>
+</tr>
+<tr>
+<td>topic 数量对吞吐量的影响</td>
+<td></td>
+<td></td>
+<td>topic 可以达到几百/几千的级别，吞吐量会有较小幅度的下降，这是 RocketMQ 的一大优势，在同等机器下，可以支撑大量的 topic</td>
+<td>topic 从几十到几百个时候，吞吐量会大幅度下降，在同等机器下，Kafka 尽量保证 topic 数量不要过多，如果要支撑大规模的 topic，需要增加更多的机器资源</td>
+</tr>
+<tr>
+<td>时效性</td>
+<td>ms 级</td>
+<td>微秒级，这是 RabbitMQ 的一大特点，延迟最低</td>
+<td>ms 级</td>
+<td>延迟在 ms 级以内</td>
+</tr>
+<tr>
+<td>可用性</td>
+<td>高，基于主从架构实现高可用</td>
+<td>同 ActiveMQ</td>
+<td>非常高，分布式架构</td>
+<td>非常高，分布式，一个数据多个副本，少数机器宕机，不会丢失数据，不会导致不可用</td>
+</tr>
+<tr>
+<td>消息可靠性</td>
+<td>有较低的概率丢失数据</td>
+<td>基本不丢</td>
+<td>经过参数优化配置，可以做到 0 丢失</td>
+<td>同 RocketMQ</td>
+</tr>
+<tr>
+<td>功能支持</td>
+<td>MQ 领域的功能极其完备</td>
+<td>基于 erlang 开发，并发能力很强，性能极好，延时很低</td>
+<td>MQ 功能较为完善，还是分布式的，扩展性好</td>
+<td>功能较为简单，主要支持简单的 MQ 功能，在大数据领域的实时计算以及日志采集被大规模使用</td>
+</tr>
+</tbody>
+</table></div>
+<hr>
+<p style="text-indent:0">9.分库分表之后，id 主键如何处理？</p>
+<p>A、单库生成自增 id</p>
+<p>B、设置数据库 sequence 或者表自增字段步长</p>
+<p>C、UUID</p>
+<p>D、snowflake 算法</p>
+<p>参考答案：A,B,C,D</p>
+<p>答案解析：</p>
+<p>snowflake 算法</p>
+<p>A、B、C 也是理论可行的，但是都各自有缺点，最好用snowflake 算法。</p>
+<p>snowflake 算法是 twitter 开源的分布式 id 生成算法，采用 Scala 语言实现，是把一个 64 位的 long 型的 id，1 个 bit 是不用的，用其中的 41 bit 作为毫秒数，用 10 bit 作为工作机器 id，12 bit 作为序列号。</p>
+<p>1 bit：不用，为啥呢？因为二进制里第一个 bit 为如果是 1，那么都是负数，但是我们生成的 id 都是正数，所以第一个 bit 统一都是 0。 41 bit：表示的是时间戳，单位是毫秒。41 bit 可以表示的数字多达 2^41 - 1，也就是可以标识 2^41 - 1 个毫秒值，换算成年就是表示69年的时间。 10 bit：记录工作机器 id，代表的是这个服务最多可以部署在 2^10台机器上哪，也就是1024台机器。但是 10 bit 里 5 个 bit 代表机房 id，5 个 bit 代表机器 id。意思就是最多代表 2^5个机房（32个机房），每个机房里可以代表 2^5 个机器（32台机器）。 12 bit：这个是用来记录同一个毫秒内产生的不同 id，12 bit 可以代表的最大正整数是 2^12 - 1 = 4096，也就是说可以用这个 12 bit 代表的数字来区分同一个毫秒内的 4096 个不同的 id。</p>
+<hr>
+<p style="text-indent:0">10.Redis 内存淘汰机制有哪些？</p>
+<p>A、noeviction: 当内存不足以容纳新写入数据时，新写入操作会报错</p>
+<p>B、allkeys-lru：当内存不足以容纳新写入数据时，在键空间中，移除最近最少使用的 key</p>
+<p>C、volatile-lru：当内存不足以容纳新写入数据时，在设置了过期时间的键空间中，移除最近最少使用的 key</p>
+<p>D、allkeys-random：当内存不足以容纳新写入数据时，在设置了过期时间的键空间中，随机移除某个 key。</p>
+<p>参考答案：A,B,C</p>
+<p>答案解析：</p>
+<p>redis 内存淘汰机制有以下几个：</p>
+<p>noeviction: 当内存不足以容纳新写入数据时，新写入操作会报错，这个一般没人用吧，实在是太恶心了。 allkeys-lru：当内存不足以容纳新写入数据时，在键空间中，移除最近最少使用的 key（这个是最常用的）。 allkeys-random：当内存不足以容纳新写入数据时，在键空间中，随机移除某个 key，这个一般没人用吧，为啥要随机，肯定是把最近最少使用的 key 给干掉啊。 volatile-lru：当内存不足以容纳新写入数据时，在设置了过期时间的键空间中，移除最近最少使用的 key（这个一般不太合适）。 volatile-random：当内存不足以容纳新写入数据时，在设置了过期时间的键空间中，随机移除某个 key。 volatile-ttl：当内存不足以容纳新写入数据时，在设置了过期时间的键空间中，有更早过期时间的 key 优先移除。</p>
+
+            </div>
+
+            
+
+
+        </article>
+
+        
+
+        
+
+
+        
+
+
+        
+
+
+        
+
+
+        
+
+
+        
+    <footer class="minimal-footer">
+        
+            <div class="post-tag"><a href="/tags/php/" rel="tag" class="post-tag-link">#php</a></div>
+        
+        
+            <div class="post-category">
+                <a href="/tech/" class="post-category-link active">tech</a> | <a href="/life/" class="post-category-link">life</a>
+            </div>
+        
+        
+    </footer>
+
+
+
+        
+
+
+        
+
+
+        
+
+
+    </div>
+</main>
+
+
+            
+
+            
+
+        </div>
+        <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('\/sw.js');
+            });
+        }
+    </script>
+
+
+        
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/medium-zoom@latest/dist/medium-zoom.min.js"></script>
+
+<script>
+    mediumZoom(document.querySelectorAll('div.post-body img'), {
+        background: 'hsla(var(--color-bg-h), var(--color-bg-s), var(--color-bg-l), 0.95)'
+    })
+</script>
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
